@@ -13,15 +13,10 @@ const CounterChart = () => {
   return (
     <div className="flex flex-col items-center justify-center p-6 bg-white rounded-lg shadow-lg">
       {/* Header Section */}
-      <div className="text-center mb-6">
-        <h2 className="text-3xl font-semibold text-gray-800">
-          Student Distribution
-        </h2>
-        <p className="text-lg text-gray-600">Percentage of Boys vs Girls</p>
-      </div>
+      <div className="text-center mb-6"></div>
 
       {/* Chart Section */}
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width="100%" height={200}>
         <PieChart>
           <Pie
             data={data}
@@ -54,9 +49,7 @@ const CounterChart = () => {
       </ResponsiveContainer>
 
       {/* Footer Section */}
-      <div className="mt-6 text-center text-gray-500 text-sm">
-        <p>Data visualization of boys and girls student distribution.</p>
-      </div>
+      <div className="mt-6 text-center text-gray-500 text-sm"></div>
     </div>
   );
 };

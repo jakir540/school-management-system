@@ -1,3 +1,4 @@
+import AttendanceChart from "@/components/AttendenceChart";
 import CounterChart from "@/components/CounterChart";
 import UserCard from "@/components/UserCard";
 
@@ -34,7 +35,21 @@ const AdminPage = () => {
           ))}
         </div>
 
-        <CounterChart />
+        <div className="flex gap-4 flex-col lg:flex-row py-5">
+          {/* COUNT CHART */}
+          <div className="w-full lg:w-1/3 h-[450px]">
+            <CounterChart />
+          </div>
+          {/* ATTENDANCE CHART */}
+          <div className="w-full lg:w-2/3 h-[250px]">
+            <AttendanceChart />
+          </div>
+        </div>
+        {/* BOTTOM CHART */}
+        {/* <div className="w-full h-[500px]"> */}
+        {/* <FinanceChart /> */}
+        {/* Financhchart */}
+        {/* </div> */}
       </div>
 
       {/* right side */}
