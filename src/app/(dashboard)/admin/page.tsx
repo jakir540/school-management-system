@@ -4,29 +4,25 @@ const AdminPage = () => {
   const userCards = [
     {
       type: "Student",
-
-      icon: "/student-icon.png",
+      icon: "fa-user-graduate", // Font Awesome class
     },
     {
       type: "Teacher",
-
-      icon: "/teacher-icon.png",
+      icon: "fa-chalkboard-teacher", // Font Awesome class
     },
     {
       type: "Admin",
-
-      icon: "/admin-icon.png",
+      icon: "fa-user-cog", // Font Awesome class
     },
     {
       type: "Parent",
-
-      icon: "/parent-icon.png",
+      icon: "fa-users", // Font Awesome class
     },
   ];
 
   return (
     <div className="flex justify-between gap-4 flex-col md:flex-row">
-      {/* left side  */}
+      {/* left side */}
       <div className="min-h-screen bg-gray-50 py-10 px-6 w-2/3">
         <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">
           Admin Dashboard
