@@ -1,3 +1,4 @@
+import CounterChart from "@/components/CounterChart";
 import UserCard from "@/components/UserCard";
 
 const AdminPage = () => {
@@ -32,6 +33,8 @@ const AdminPage = () => {
             <UserCard key={card.type} type={card.type} icon={card.icon} />
           ))}
         </div>
+
+        <CounterChart />
       </div>
 
       {/* right side */}
