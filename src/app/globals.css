@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* CustomCalendar.css */
+.react-calendar {
+  border: none !important;
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #f9f9f9, #e3e3e3);
+  width: 100%;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px; */
+}
+
+.react-calendar__tile {
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.react-calendar__tile:hover {
+  background: #4caf50;
+  color: white;
+}
+
+.react-calendar__tile--active {
+  background: green !important;
+  color: white;
+  font-weight: bold;
+}
+
+.react-calendar__navigation button {
+  color: green;
+  font-weight: bold;
+}
+
+.react-calendar__navigation button:hover {
+  background: rgba(33, 150, 243, 0.1);
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+  background: rgba(33, 150, 243, 0.1);
+
+  padding: 10px 2px;
+  border-radius: 8px;
+}

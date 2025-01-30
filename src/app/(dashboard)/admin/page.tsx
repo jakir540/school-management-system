@@ -1,5 +1,6 @@
 import AttendanceChart from "@/components/AttendenceChart";
 import CounterChart from "@/components/CounterChart";
+import EventCalender from "@/components/EventCalender";
 import FinanceChart from "@/components/FinanceChart";
 import UserCard from "@/components/UserCard";
 
@@ -53,7 +54,9 @@ const AdminPage = () => {
       </div>
 
       {/* right side */}
-      <div className="w-[25%] bg-gray-500">right</div>
+      <div className="w-[25%] bg-gray-100 flex flex-col gap-4">
+        <EventCalender />
+      </div>
     </div>
   );
 };
