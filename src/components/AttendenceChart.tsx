@@ -28,8 +28,8 @@ const attendanceData: AttendanceData[] = [
 ];
 
 const colors = {
-  boys: "#4CAF50", // Green for boys
-  girls: "#FF5722", // Orange for girls
+  boys: "#4CAF50",
+  girls: "#FF5722",
 };
 
 const getPath = (x, y, width, height) => {
