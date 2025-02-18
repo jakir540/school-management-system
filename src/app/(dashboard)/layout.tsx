@@ -1,4 +1,4 @@
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
 import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
@@ -38,7 +38,7 @@ export default function DashboardLayout({
           {children}
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
